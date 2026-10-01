@@ -20,11 +20,11 @@ int n;
     }
      if (percent >= 40)
     {
-     printf("Result: khushi manao!!!\n");
+     printf("Result: PASS!!!\n");
     }
      else
     {
-     printf("Result: khushi mat manao!!!\n");
+     printf("Result: FAIL!!!\n");
     }
     }
      return 0;
