@@ -1,13 +1,24 @@
 #include <stdio.h>
-
-int main() {
-         int n,fac=1;
-         printf("Enter your choice number: ");
-         scanf("%d" , &n);
-         for(int i= n; i>0; i++)
-    {
-            fac *= i;
-       }
-         printf("factorial is %d\n ",fac);
+int fact_loop(int num);
+int main(){
+         int num;
+         int result;
+         printf("Enter any +ve Number: ");
+         scanf("%d" , &num);
+         result=fact_loop(num);
+         printf("Result = %d\n" , result);
          return 0;
-   }
+  }
+         int fact_loop(int n)
+       {
+         int i, ans=1;
+         for(i=1; i<=n; i++)
+    {
+         ans = ans*i;
+     }
+         return ans;
+       }
+         
+         
+         
+         
