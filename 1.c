@@ -1,5 +1,5 @@
 #include <stdio.h>
 int main(){
-        printf("-----------SAB MOH MAYA HAI----------");
+        printf("-----------2 + 2 = 5----------");
         return 0;
         }
